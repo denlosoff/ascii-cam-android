@@ -39,6 +39,9 @@ android.minapi = 21
 # (str) Android NDK version to use
 android.ndk = 25b
 
+# (str) Android build tools version to use
+android.build_tools = 30.0.3
+
 [buildozer]
 
 # (int) Log level (0 = error, 1 = info, 2 = debug (with command output))
