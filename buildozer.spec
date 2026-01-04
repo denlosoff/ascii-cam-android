@@ -24,8 +24,8 @@ requirements = python3,kivy,pillow,numpy
 # (str) Presplash background color (for new android toolchain)
 #android.presplash_color = #FFFFFF
 
-# (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = arm64-v8a
+# (list) The Android archs to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
+android.archs = arm64-v8a
 
 # (list) Permissions
 android.permissions = CAMERA
@@ -35,6 +35,9 @@ android.api = 27
 
 # (int) Minimum API required
 android.minapi = 21
+
+# (str) Android NDK version to use
+android.ndk = 25b
 
 [buildozer]
 
